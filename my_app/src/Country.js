@@ -5,16 +5,15 @@
 			<img src={} />
 			<button onClick={}>Delete</button>
 		</div>	
+
+		make sure to pass the handleDelete function into the onClick listener
+		img src will hold the .flags.png
+		and href will hold .maps.googleMaps 
 */
 
-const Country = (props) => {
+const Country = () => {
 	//Remember to destructure your props here
 	//You'll be destructuring country, setCountries, countries
-	const {
-		country, 
-		setCountries, 
-		countries
-	} = props
 
 
 	//Study this function here it will be helpful for you
@@ -25,12 +24,6 @@ const Country = (props) => {
 	}
 
 	return (
-		<div className="country">
-			<a href={country.maps.googleMaps} target="_blank">{country.name.official}
-			</a>
-			<img src={country.flags.png} />
-			<button onClick={handleDelete} >Delete</button>
-		</div>	
 	);
 }
 
