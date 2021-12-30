@@ -11,7 +11,7 @@ How does my json look like? ༼ つ ◕_◕ ༽つ
 We will specifically use the name.official, maps.googleMaps, and flags.png properties
 so it may look something like this within your code country.flags.png
 
-You can specifically go to the given link on line 8 in your browser to see the whole entire JSON that we will fetch
+You can specifically go to the given link on line 28 in your browser to see the whole entire JSON that we will fetch
 However, it'll look a little funky so here's a chrome extension to make it easier for you to read
 Chrome Extension:
 https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh?hl=en-US
