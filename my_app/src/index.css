@@ -1,0 +1,28 @@
+.App {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  gap: 1rem;
+}
+
+.country {
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  width: 400px;
+  border: 1px solid black;
+  align-items: center;
+}
+
+.country img {
+  margin: 2rem;
+  box-shadow: -1px 3px 5px 1px;
+}
+
+a {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
